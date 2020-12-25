@@ -154,12 +154,10 @@
                         <li><input checked="" hidden="" type="radio" name="type" id="type-baidu"
                                 value="https://www.baidu.com/s?wd=" data-placeholder="百度一下"><label
                                 for="type-baidu"><span style="color:#2100E0">百度</span></label></li>
-                        <!--<li><input hidden="" type="radio" name="type" id="type-taobao" value="https://s.taobao.com/search?q=" data-placeholder="淘宝搜索"><label for="type-taobao"><span style="color:#ff5722">淘宝</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-weibo" value="https://s.weibo.com/weibo?q=" data-placeholder="微博热门搜索"><label for="type-weibo"><span style="color:#e91e63">微博</span></label></li> 
-                        <li><input hidden="" type="radio" name="type" id="type-yingshi" value="https://www.nfmovies.com/search.php?searchword=" data-placeholder="搜影片、剧集、动漫、综艺..."><label for="type-yingshi"><span style="color:#f03">影视</span></label></li> -->
-                        <li><input hidden="" type="radio" name="type" id="type-doris" value="http://dorisdb.org/"
-                                data-placeholder="Apache Doris最佳实践"><label for="type-doris"><span
-                                    style="color:#f03">Apache Doris</span></label></li>
+                
+                        <li><input hidden="" type="radio" name="type" id="type-doris" value="http://magi.com/"
+                                data-placeholder="知识图谱搜索"><label for="type-doris"><span
+                                    style="color:#f03">Magi</span></label></li>
 
                     </ul>
                 </div>
@@ -223,7 +221,14 @@
                     <span>Apache Hive</span>
                 </a>
             </li>
-
+            <li class="col-3 col-sm-3 col-md-3 col-lg-1">
+                <a rel="nofollow" href="https://prestodb.io/" target="_blank">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-gmail"></use>
+                    </svg>
+                    <span>Presto</span>
+                </a>
+            </li>
             <li class="col-3 col-sm-3 col-md-3 col-lg-1">
                 <a rel="nofollow" href="http://impala.apache.org/" target="_blank">
                     <svg class="icon" aria-hidden="true">
@@ -232,7 +237,6 @@
                     <span>Apache Impala</span>
                 </a>
             </li>
-
             <li class="col-3 col-sm-3 col-md-3 col-lg-1">
                 <a rel="nofollow" href="http://spark.apache.org/sql/" target="_blank">
                     <svg class="icon" aria-hidden="true">
@@ -254,8 +258,28 @@
             <li class="col-3 col-sm-3 col-md-3 col-lg-1"><a rel="nofollow" href="https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html" target="_blank"><svg
                 class="icon" aria-hidden="true">
                 <use xlink:href="#icon-tengxunshipin"></use>
-            </svg><span>Apache Hadoop HDFS</span></a></li>
+            </svg><span>HDFS</span></a></li>
         </ul>
+
+        <ul class="mylist row">
+            <li class="title"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-remen"></use>
+                </svg>数据湖</li>
+            <li class="col-3 col-sm-3 col-md-3 col-lg-1"><a rel="nofollow" href="http://hudi.apache.org/" target="_blank"><svg
+                        class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-tengxunshipin"></use>
+                    </svg><span>Apache Hudi</span></a></li>
+            <li class="col-3 col-sm-3 col-md-3 col-lg-1"><a rel="nofollow" href="https://iceberg.apache.org" target="_blank"><svg
+                class="icon" aria-hidden="true">
+                <use xlink:href="#icon-tengxunshipin"></use>
+            </svg><span>Apache Iceberg</span></a></li>
+            <li class="col-3 col-sm-3 col-md-3 col-lg-1"><a rel="nofollow" href="https://docs.databricks.com/delta/optimizations/index.html" target="_blank"><svg
+                class="icon" aria-hidden="true">
+                <use xlink:href="#icon-tengxunshipin"></use>
+            </svg><span>Databricks Delta</span></a></li>
+        </ul>
+
+        
 
         <ul class="mylist row">
             <li class="title"><svg class="icon" aria-hidden="true">
@@ -264,7 +288,7 @@
             <li class="col-3 col-sm-3 col-md-3 col-lg-1"><a rel="nofollow" href="https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html" target="_blank"><svg
                         class="icon" aria-hidden="true">
                         <use xlink:href="#icon-tengxunshipin"></use>
-                    </svg><span>Apache Hadoop MapReduce</span></a></li>
+                    </svg><span>Hadoop MapReduce</span></a></li>
             <li class="col-3 col-sm-3 col-md-3 col-lg-1">
                 <a rel="nofollow" href="https://spark.apache.org/" target="_blank">
                     <svg class="icon" aria-hidden="true">
@@ -286,9 +310,28 @@
                     <svg class="icon" aria-hidden="true">
                         <use xlink:href="#icon-tengxunshipin"></use>
                     </svg>
-                    <span>Apache Spark Streaming</span>
+                    <span>Spark Streaming</span>
                 </a>
             </li>
+        </ul>
+
+        <ul class="mylist row">
+            <li class="title"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-remen"></use>
+                </svg>数据流平台</li>
+            <li class="col-3 col-sm-3 col-md-3 col-lg-1"><a rel="nofollow" href="http://kafka.apache.org/" target="_blank"><svg
+                        class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-tengxunshipin"></use>
+                    </svg><span>Apache Kafka</span></a></li>
+            <li class="col-3 col-sm-3 col-md-3 col-lg-1"><a rel="nofollow" href="https://pulsar.apache.org/zh-CN/" target="_blank"><svg
+                class="icon" aria-hidden="true">
+                <use xlink:href="#icon-tengxunshipin"></use>
+            </svg><span>Apache Pulsar</span></a></li>
+            <li class="col-3 col-sm-3 col-md-3 col-lg-1"><a rel="nofollow" href="https://rocketmq.apache.org/" target="_blank"><svg
+                class="icon" aria-hidden="true">
+                <use xlink:href="#icon-tengxunshipin"></use>
+            </svg><span>Apache RocketMQ</span></a></li>
+                    
         </ul>
 
         <ul class="mylist row">
@@ -303,8 +346,12 @@
             <li class="col-3 col-sm-3 col-md-3 col-lg-1"><a rel="nofollow" href="https://ambari.apache.org/" target="_blank"><svg
                 class="icon" aria-hidden="true">
                 <use xlink:href="#icon-tengxunshipin"></use>
-            </svg><span>Hadoop Yarn</span></a></li>
-                    
+            </svg><span>Apache Ambari</span></a></li>
+
+            <li class="col-3 col-sm-3 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.cloudera.com/products/product-components/cloudera-manager.html" target="_blank"><svg
+                class="icon" aria-hidden="true">
+                <use xlink:href="#icon-tengxunshipin"></use>
+            </svg><span>CDH(商业)</span></a></li>
         </ul>
 
         <ul class="mylist row">
